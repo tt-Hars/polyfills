@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: beige;
+  color: #121212;
+  font-family: 'Geologica', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.mx-1{
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+}
+.mx-2{
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+
+.my-1{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.my-2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+pre {
+  font-family: 'Source Code Pro', monospace;
+  display: inline-block;
+  border: 3px solid burlywood;
+  margin: 0;
+  font-size: 1.2em;
+  width: 1080px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
