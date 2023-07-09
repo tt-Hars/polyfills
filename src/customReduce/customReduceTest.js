@@ -6,13 +6,13 @@ export const reduceResultCode = () => {
     (accumulator, currentValue) => accumulator + currentValue,
     0
   );
-  const someArrItemsReduceedUsingCustomReduce = someArr.customReduce(
+  const someArrItemsReducedUsingCustomReduce = someArr.customReduce(
     (accumulator, currentValue) => accumulator + currentValue,
     0
   );
   const result = areResultsSame(
     someArrItemsReducedUsingReduce,
-    someArrItemsReduceedUsingCustomReduce
+    someArrItemsReducedUsingCustomReduce
   );
 
   console.log(result); // true
